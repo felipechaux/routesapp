@@ -1,0 +1,54 @@
+
+p
+java:S2293œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿÎÀ
+?
+java:S1148õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+\
+java:S2259ø"EA "NullPointerException" could be thrown; "context" is nullable here.(…¬£¿
+?
+java:S1148ó"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+V
+java:S5527å"?Enable server hostname verification on this SSL/TLS connection.(§¼Éç
+˜
+java:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”Ê•¡
+O
+java:S1144ÿ"3Remove this unused private "ValidarUsuario" method.(‰¿§øÿÿÿÿ
+B
+java:S1172†"+Remove this unused method parameter "view".(¼™­”
+C
+java:S1172×",Remove this unused method parameter "chain".(€Èœ®
+l	java:S117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¿§øÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(¨æœˆüÿÿÿÿ
+d	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼™­”
+
+java:S1186Æ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹„Á¦ÿÿÿÿÿ
+<
+java:S1659,"!Declare "et2" on a separate line.(éÖ¢Äûÿÿÿÿ
+a
+java:S2147ô"ECombine this catch with the one at line 242, which has the same body.(üû’äúÿÿÿÿ
+i	java:S100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¿§øÿÿÿÿ
+B
+java:S1172¤"+Remove this unused method parameter "view".(½Å¸ı
+R	java:S125 "<This block of commented-out lines of code should be removed.(û„ì°
+D
+java:S1604á"(Make this anonymous inner class a lambda(ï˜»ÿÿÿÿÿ
+P	java:S125p"<This block of commented-out lines of code should be removed.(ĞË@
+\
+java:S4830Æ"@Enable server certificate validation on this SSL/TLS connection.(¹„Á¦ÿÿÿÿÿ
+W
+java:S4830Í"@Enable server certificate validation on this SSL/TLS connection.(”Ê•¡
+>	java:S108V")Either remove or fill this block of code.(‚Üò
+>	java:S108f")Either remove or fill this block of code.(‚Üò
+n	java:S116-"TRename this field "btn_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ÷Úçüÿÿÿÿ
+b	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©®º=
+_
+java:S2259W"DA "NullPointerException" could be thrown; "result" is nullable here.(¸Ìá÷ÿÿÿÿÿ
+C
+java:S1172Ó",Remove this unused method parameter "chain".(®ñıŠ
+d	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Å¸ı
+X
+java:S3252K"BUse static access with "java.net.HttpURLConnection" for "HTTP_OK".(œ¹Êª
+F
+java:S1604ƒ"(Make this anonymous inner class a lambda(×À ‰8Í¢Šé.
+K
+java:S1604’"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ8Í¢Šé.
