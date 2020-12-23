@@ -1,4 +1,4 @@
-package com.example.routesapp;
+package com.example.routesapp.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,27 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class PhotoBasicActivity extends AppCompatActivity {
+import com.example.routesapp.R;
+
+public class DetailedRoutesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photo_basic);
+        setContentView(R.layout.activity_detailed_routes);
     }
 
 
-    public void To_Photo (View view)
+    public void To_Ph_Basic (View view)
     {
-
-
-
-        Intent next = new Intent(this, PhotoActivity.class);
+        Intent next = new Intent(this, PhotoBasicActivity.class);
         startActivity(next);
-
-
-
-
     }
-
-
 }

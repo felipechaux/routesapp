@@ -1,4 +1,4 @@
-package com.example.routesapp;
+package com.example.routesapp.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.routesapp.R;
 
 public class WelActivity extends AppCompatActivity {
 
@@ -17,7 +19,7 @@ public class WelActivity extends AppCompatActivity {
 
 
     public void Regresar (View view){
-        Intent regresar = new Intent(this, MainActivity.class);
+        Intent regresar = new Intent(this, LoginActivity.class);
         startActivity(regresar);
     }
 

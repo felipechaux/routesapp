@@ -1,8 +1,10 @@
-package com.example.routesapp;
+package com.example.routesapp.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.routesapp.R;
 
 public class ResultActivity extends AppCompatActivity {
 

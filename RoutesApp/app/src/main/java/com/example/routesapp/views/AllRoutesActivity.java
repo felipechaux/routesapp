@@ -1,11 +1,12 @@
-package com.example.routesapp;
+package com.example.routesapp.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
+
+import com.example.routesapp.R;
 
 public class AllRoutesActivity extends AppCompatActivity {
 
