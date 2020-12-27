@@ -8,9 +8,9 @@
     <string name="txtv_welcome">Bienvenido</string>
     <string name="btn_consultarrutas">CONSULTAR RUTAS</string>
 
-    <string name="txt_detailedruta">RUTA 1</string>
-    <string name="txt_detailedpoliza">POLIZA: 576543ASD543</string>
-    <string name="txt_detailedtipovisita">TIPO DE VISITA: VERIFICACIÓN</string>
+    <string name="txt_detailedruta">RUTA:</string>
+    <string name="txt_detailedpoliza">POLIZA:</string>
+    <string name="txt_detailedtipovisita">TIPO DE VISITA:</string>
 
 
     <string name="btn_detailed_fot_bas">FOTOS BÁSICAS</string>

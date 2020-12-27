@@ -38,6 +38,7 @@ class LoginActivity : AppCompatActivity() {
 
     //region Methods
 
+    //setupViewModel
     private fun setupViewModel() {
         try {
             loginView = ViewModelProvider(this)[LoginViewModel::class.java]
@@ -46,6 +47,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    //authUser
     private fun authUser() {
         try {
             val requestLoginDTO = RequestLoginDTO().apply {
@@ -56,8 +58,8 @@ class LoginActivity : AppCompatActivity() {
                 if (it != null && it.response.equals("Ok")) {
                     Toast.makeText(this, "User :  ${it.userNameDescription}", Toast.LENGTH_SHORT).show()
                     val next = Intent(this, WelActivity::class.java)
-                    it.userCode=requestLoginDTO.username
-                    next.putExtra("user",it)
+                    it.userCode = requestLoginDTO.username
+                    next.putExtra("user", it)
                     startActivity(next)
                 } else {
                     //errors
@@ -70,7 +72,7 @@ class LoginActivity : AppCompatActivity() {
 
     }
 
-
+    //next
     fun Next(view: View?) {
         val usuario = et1!!.text.toString()
         val contrasena = et2!!.text.toString()
@@ -85,8 +87,6 @@ class LoginActivity : AppCompatActivity() {
             authUser()
         }
     }
-
-
     //endregion
 
 }
