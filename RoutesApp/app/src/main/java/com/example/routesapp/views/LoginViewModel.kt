@@ -1,7 +1,6 @@
 package com.example.routesapp.views
 
 import android.content.Context
-import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModel
 import com.example.routesapp.data.dto.request.RequestLoginDTO
 import com.example.routesapp.data.dto.response.ResponseLoginDTO
