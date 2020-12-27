@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import com.example.routesapp.R
 import com.example.routesapp.data.dto.response.RoutesDTO
-import com.example.routesapp.views.AllRoutesActivity
+import com.example.routesapp.views.route.AllRoutesActivity
 import java.util.*
 
 class RouteAdapter(var context: Context, var routeList: List<RoutesDTO>) : BaseAdapter() {

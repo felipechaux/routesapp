@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.AllRoutesActivity">
+    tools:context=".views.route.AllRoutesActivity">
 
     <ListView
         android:id="@+id/listRoutes"

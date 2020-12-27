@@ -1,4 +1,4 @@
-package com.example.routesapp.views
+package com.example.routesapp.views.route
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog

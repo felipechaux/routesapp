@@ -1,4 +1,4 @@
-package com.curazao.actpolapp.utils
+package com.example.routesapp.utils
 
 class ConstantApp {
 

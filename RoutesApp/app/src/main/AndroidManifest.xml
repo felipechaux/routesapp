@@ -14,9 +14,9 @@
         <activity android:name=".views.ResultActivity" />
         <activity android:name=".views.PhotoActivity" />
         <activity android:name=".views.PhotoBasicActivity" />
-        <activity android:name=".views.AllRoutesActivity" />
+        <activity android:name=".views.route.AllRoutesActivity" />
         <activity
-            android:name=".views.DetailedRoutesActivity"
+            android:name=".views.route.DetailedRoutesActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".views.WelActivity"

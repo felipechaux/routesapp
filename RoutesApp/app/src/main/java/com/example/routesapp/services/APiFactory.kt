@@ -1,6 +1,6 @@
 package com.example.routesapp.services
 
-import com.curazao.actpolapp.utils.ConstantApp
+import com.example.routesapp.utils.ConstantApp
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

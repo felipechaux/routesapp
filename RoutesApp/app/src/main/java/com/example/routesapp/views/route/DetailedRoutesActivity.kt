@@ -1,4 +1,4 @@
-package com.example.routesapp.views
+package com.example.routesapp.views.route
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.routesapp.R
 import com.example.routesapp.data.dto.response.RoutesDTO
+import com.example.routesapp.views.PhotoBasicActivity
 import kotlinx.android.synthetic.main.activity_detailed_routes.*
 
 class DetailedRoutesActivity : AppCompatActivity() {

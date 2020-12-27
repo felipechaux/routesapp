@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.routesapp.R
 import com.example.routesapp.data.dto.response.ResponseLoginDTO
+import com.example.routesapp.views.route.AllRoutesActivity
 import kotlinx.android.synthetic.main.activity_wel.*
 
 class WelActivity : AppCompatActivity() {
