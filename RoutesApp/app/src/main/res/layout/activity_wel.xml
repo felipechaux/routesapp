@@ -7,11 +7,10 @@
     tools:context=".views.WelActivity">
 
     <TextView
-        android:id="@+id/txtv_welcome"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="336dp"
-        android:text="@string/txtv_welcome"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +26,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtv_welcome" />
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcome" />
 
     <Button
         android:id="@+id/btn_salirwelcome"
